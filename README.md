@@ -9,7 +9,7 @@ Step 1: Insert the ButtonBuddy.js into the head of your html document
 
 ```html
 <script src="ButtonBuddy.js"></script>
-´´´
+```
 
 Step 2: Generate your first button. Just include a script part before the closing body tag and initalize your button.
 
@@ -21,7 +21,7 @@ Step 2: Generate your first button. Just include a script part before the closin
             alert('Hello there');
 
         })
-´´´
+```
 
 ## Public methods
 
@@ -45,7 +45,7 @@ NOTE: If you use the type click ButtonBuddy automaticly adds a event.preventDefa
             alert('Hello there');
 
         })
-´´´
+```
 
 ## Static methods
 
@@ -57,7 +57,8 @@ By default ButtonBuddy loads automaticlly the base css file in the head. If you 
 
         ButtonBuddy.useCssLoader(false);
 
-´´´
+```
+
 
 ### setGlobalCssPath
 
@@ -69,4 +70,4 @@ Define the path to the css file wich should be automaticcly loaded. Note that th
 
         ButtonBuddy.setGlobalCssPath('path/to/my/cssFile/style.css');
 
-´´´
+```
